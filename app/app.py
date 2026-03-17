@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Carregar modelo
-model = joblib.load('modelo_risco.pkl')
+model = joblib.load('app/modelo_risco.pkl')
 
 st.title("Previsão de Risco de Defasagem")
 
